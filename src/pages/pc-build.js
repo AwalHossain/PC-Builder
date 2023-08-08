@@ -1,5 +1,5 @@
 import CategoryItem from '<test>/components/CategoryItem';
-import RootLayout from '<test>/components/RootLayout/RootLayout';
+import RootLayout from '<test>/components/Layout/RootLayout';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { toast } from 'react-hot-toast';

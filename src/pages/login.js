@@ -1,8 +1,8 @@
-import RootLayout from '<test>/components/RootLayout/RootLayout';
+import RootLayout from '<test>/components/Layout/RootLayout';
 import { signIn } from 'next-auth/react';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
 
-export default function SignIn() {
+export default function Login() {
     const onGoogleLogIn = () => {
         // signIn("google", { callbackUrl: "http://localhost:3000/" })
     }
@@ -43,6 +43,6 @@ export default function SignIn() {
     )
 }
 
-SignIn.getLayout = function getLayout(page) {
+Login.getLayout = function getLayout(page) {
     return <RootLayout>{page}</RootLayout>;
 };

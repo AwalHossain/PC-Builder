@@ -1,5 +1,7 @@
+import { signOut, useSession } from "next-auth/react";
 import Link from "next/link";
 import DropdownMenu from "./SharedMenu";
+
 
 const categories = [
     { name: "CPU", value: "CPU" },
@@ -12,6 +14,10 @@ const categories = [
 ]
 
 const Navbar = () => {
+
+
+  const {data: session, status} = useSession()
+  console.log(status,'seesssion');
   return (
     <div className="navbar bg-gray-800 z-10 static">
       <div className="navbar-start">
@@ -46,9 +52,15 @@ const Navbar = () => {
           <li><a className="text-white hover:text-gray-400">Item 3</a></li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end space-x-4">
         {/* <a className="btn btn-secondary">PC BUILD</a> */}
         <Link href="/pc-build" className='btn btn-primary'>PC Build</Link>
+        {
+          status === 'authenticated' ?
+          <button onClick={signOut} className='btn btn-primary'>Sign Out</button> :
+           <Link href="/login" className='btn btn-primary'>Sign In</Link>
+
+        }
       </div>
     </div>
   );

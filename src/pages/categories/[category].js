@@ -1,6 +1,6 @@
 
+import RootLayout from '<test>/components/Layout/RootLayout';
 import ProductCard from '<test>/components/ProductCard';
-import RootLayout from '<test>/components/RootLayout/RootLayout';
 import Head from 'next/head';
 
 export default function CategoryDetails({ products }) {

@@ -6,12 +6,12 @@ import { Provider } from 'react-redux';
 
 
 
-export default function App({ Component, pageProps }) {
+export default function App({ Component,  pageProps: { session, ...pageProps }, }) {
   const getLayout = Component.getLayout || ((page) => page);
 
   return getLayout(
-    <SessionProvider session={pageProps.session}>
-      <Provider store={store}>
+        <SessionProvider session={session}>
+    <Provider store={store}>
         <Toaster />
         <Component {...pageProps} />
       </Provider>
