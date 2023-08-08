@@ -1,0 +1,393 @@
+[
+  {
+    "title": "AMD Ryzen 9 5950X",
+    "description": "16-core processor for high-end gaming and content creation",
+    "keyfeatures": [
+      "Clock Speed: 3.4GHz",
+      "Boost Speed: 4.9GHz",
+      "Socket: AM4"
+    ],
+    "price": 699.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "CPU"
+  },
+  {
+    "title": "Intel Core i7-12700K",
+    "description": "8-core processor with hyperthreading for superior multitasking",
+    "keyfeatures": [
+      "Clock Speed: 3.6GHz",
+      "Boost Speed: 5.0GHz",
+      "Socket: LGA1700"
+    ],
+    "price": 449.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "CPU"
+  },
+  {
+    "title": "AMD Ryzen 5 5600X",
+    "description": "6-core processor for gaming and productivity",
+    "keyfeatures": [
+      "Clock Speed: 3.7GHz",
+      "Boost Speed: 4.6GHz",
+      "Socket: AM4"
+    ],
+    "price": 279.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "CPU"
+  },
+  {
+    "title": "Intel Core i5-12600K",
+    "description": "6-core processor with overclocking support",
+    "keyfeatures": [
+      "Clock Speed: 3.5GHz",
+      "Boost Speed: 4.9GHz",
+      "Socket: LGA1700"
+    ],
+    "price": 319.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "category": "CPU"
+  },
+  {
+    "title": "AMD Ryzen 3 5300G",
+    "description": "Quad-core processor with Radeon graphics",
+    "keyfeatures": [
+      "Clock Speed: 3.6GHz",
+      "Boost Speed: 4.2GHz",
+      "Socket: AM4"
+    ],
+    "price": 159.99,
+    "status": "In Stock",
+    "rating": 4.4,
+    "category": "CPU"
+  },
+  {
+    "title": "MSI MEG Z590 ACE",
+    "description": "High-end ATX motherboard with premium features",
+    "keyfeatures": ["Socket: LGA1200", "Memory: DDR4", "PCIe 4.0 support"],
+    "price": 399.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Motherboard"
+  },
+  {
+    "title": "ASUS ROG Crosshair VIII Hero",
+    "description": "Feature-rich ATX motherboard for gamers and overclockers",
+    "keyfeatures": ["Socket: AM4", "Memory: DDR4", "PCIe 4.0 support"],
+    "price": 369.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "Motherboard"
+  },
+  {
+    "title": "GIGABYTE B560M AORUS PRO",
+    "description": "Micro ATX motherboard with M.2 heatsinks",
+    "keyfeatures": ["Socket: LGA1200", "Memory: DDR4", "PCIe 4.0 support"],
+    "price": 179.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "Motherboard"
+  },
+  {
+    "title": "ASRock B550M Steel Legend",
+    "description": "Affordable and reliable micro ATX motherboard",
+    "keyfeatures": ["Socket: AM4", "Memory: DDR4", "PCIe 4.0 support"],
+    "price": 129.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "category": "Motherboard"
+  },
+  {
+    "title": "ASUS Prime H510M-E",
+    "description": "Entry-level micro ATX motherboard",
+    "keyfeatures": ["Socket: LGA1200", "Memory: DDR4", "PCIe 4.0 support"],
+    "price": 99.99,
+    "status": "In Stock",
+    "rating": 4.5,
+    "category": "Motherboard"
+  },
+  {
+    "title": "G.SKILL Trident Z RGB",
+    "description": "32GB (2 x 16GB) DDR4 RAM kit with RGB lighting",
+    "keyfeatures": ["Speed: 3600MHz", "CAS Latency: 16", "XMP 2.0 support"],
+    "price": 249.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "RAM"
+  },
+  {
+    "title": "Corsair Vengeance LPX",
+    "description": "16GB (2 x 8GB) DDR4 RAM kit",
+    "keyfeatures": ["Speed: 3200MHz", "CAS Latency: 15"],
+    "price": 119.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "RAM"
+  },
+  {
+    "title": "Crucial Ballistix MAX",
+    "description": "64GB (2 x 32GB) DDR4 high-performance RAM kit",
+    "keyfeatures": ["Speed: 4000MHz", "CAS Latency: 18", "XMP 2.0 support"],
+    "price": 499.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "RAM"
+  },
+  {
+    "title": "Teamgroup T-Force Vulcan Z",
+    "description": "32GB (2 x 16GB) DDR4 RAM kit",
+    "keyfeatures": ["Speed: 3000MHz", "CAS Latency: 16"],
+    "price": 189.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "category": "RAM"
+  },
+  {
+    "title": "Kingston HyperX FURY",
+    "description": "8GB DDR4 gaming memory module",
+    "keyfeatures": ["Speed: 2666MHz", "CAS Latency: 16"],
+    "price": 69.99,
+    "status": "In Stock",
+    "rating": 4.5,
+    "category": "RAM"
+  },
+  {
+    "title": "Corsair RM850x",
+    "description": "850W 80+ Gold modular power supply",
+    "keyfeatures": ["Fully modular cables", "Zero RPM fan mode"],
+    "price": 139.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "Power-Supply-Unit"
+  },
+  {
+    "title": "Seasonic Focus GX-750",
+    "description": "750W 80+ Gold fully modular power supply",
+    "keyfeatures": ["Premium Hybrid Fan Control", "10-year warranty"],
+    "price": 119.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "Power-Supply-Unit"
+  },
+  {
+    "title": "EVGA 600 BQ",
+    "description": "600W 80+ Bronze semi-modular power supply",
+    "keyfeatures": ["Semi-modular design", "Quiet and reliable"],
+    "price": 69.99,
+    "status": "In Stock",
+    "rating": 4.5,
+    "category": "Power-Supply-Unit"
+  },
+  {
+    "title": "Cooler Master MWE Gold 650 V2",
+    "description": "650W 80+ Gold fully modular power supply",
+    "keyfeatures": ["100% Japanese capacitors", "Silent and durable fan"],
+    "price": 99.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "category": "Power-Supply-Unit"
+  },
+  {
+    "title": "be quiet! Straight Power 11",
+    "description": "750W 80+ Gold modular power supply",
+    "keyfeatures": ["Silent Wings 3 fan", "Fully modular cables"],
+    "price": 149.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Power-Supply-Unit"
+  },
+  {
+    "title": "Samsung 980 PRO",
+    "description": "1TB NVMe SSD with PCIe 4.0 support",
+    "keyfeatures": [
+      "Read Speed: Up to 7000MB/s",
+      "Write Speed: Up to 5000MB/s",
+      "M.2 Form Factor"
+    ],
+    "price": 199.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Storage-Device"
+  },
+  {
+    "title": "Western Digital Blue",
+    "description": "2TB SATA SSD with high-speed performance",
+    "keyfeatures": [
+      "Read Speed: Up to 560MB/s",
+      "Write Speed: Up to 530MB/s",
+      "2.5-inch Form Factor"
+    ],
+    "price": 249.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "Storage-Device"
+  },
+  {
+    "title": "Crucial MX500",
+    "description": "500GB SATA SSD for everyday computing",
+    "keyfeatures": [
+      "Read Speed: Up to 560MB/s",
+      "Write Speed: Up to 510MB/s",
+      "2.5-inch Form Factor"
+    ],
+    "price": 79.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "Storage-Device"
+  },
+  {
+    "title": "Seagate BarraCuda",
+    "description": "4TB 7200RPM SATA hard drive",
+    "keyfeatures": ["Large storage capacity", "Fast data transfer"],
+    "price": 99.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "category": "Storage-Device"
+  },
+  {
+    "title": "ADATA XPG GAMMIX S70",
+    "description": "2TB NVMe SSD with PCIe 4.0 support",
+    "keyfeatures": [
+      "Read Speed: Up to 7400MB/s",
+      "Write Speed: Up to 6400MB/s",
+      "M.2 Form Factor"
+    ],
+    "price": 349.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Storage-Device"
+  },
+  {
+    "title": "ASUS ROG Swift PG279Q",
+    "description": "27-inch WQHD IPS gaming monitor",
+    "keyfeatures": [
+      "Resolution: 2560x1440",
+      "Refresh Rate: 165Hz",
+      "NVIDIA G-Sync"
+    ],
+    "price": 649.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "Monitor"
+  },
+  {
+    "title": "Acer Predator XB271HU",
+    "description": "27-inch WQHD IPS gaming monitor",
+    "keyfeatures": [
+      "Resolution: 2560x1440",
+      "Refresh Rate: 165Hz",
+      "NVIDIA G-Sync"
+    ],
+    "price": 599.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "Monitor"
+  },
+  {
+    "title": "LG 34GN850-B",
+    "description": "34-inch UltraGear QHD Curved Gaming Monitor",
+    "keyfeatures": [
+      "Resolution: 3440x1440",
+      "Refresh Rate: 160Hz",
+      "NVIDIA G-Sync Compatible"
+    ],
+    "price": 999.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Monitor"
+  },
+  {
+    "title": "Samsung Odyssey G7",
+    "description": "32-inch QHD 1000R curved gaming monitor",
+    "keyfeatures": [
+      "Resolution: 2560x1440",
+      "Refresh Rate: 240Hz",
+      "NVIDIA G-Sync"
+    ],
+    "price": 799.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Monitor"
+  },
+  {
+    "title": "Dell Ultrasharp U2419H",
+    "description": "24-inch Full HD IPS monitor",
+    "keyfeatures": [
+      "Resolution: 1920x1080",
+      "Refresh Rate: 60Hz",
+      "Ultra-thin bezels"
+    ],
+    "price": 199.99,
+    "status": "In Stock",
+    "rating": 4.6,
+    "category": "Monitor"
+  },
+  {
+    "title": "Logitech MX Master 3",
+    "description": "Wireless Mouse for Productivity",
+    "keyfeatures": [
+      "Precision Scroll Wheel",
+      "Multi-Device Control",
+      "USB-C Quick Charging"
+    ],
+    "price": 99.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "Others"
+  },
+  {
+    "title": "Blue Yeti USB Microphone",
+    "description": "Professional-Quality Recording",
+    "keyfeatures": [
+      "Tri-Capsule Array",
+      "Multiple Pickup Patterns",
+      "Headphone Output"
+    ],
+    "price": 129.99,
+    "status": "In Stock",
+    "rating": 4.7,
+    "category": "Others"
+  },
+  {
+    "title": "Corsair K95 RGB Platinum XT",
+    "description": "Mechanical Gaming Keyboard",
+    "keyfeatures": [
+      "Cherry MX RGB Switches",
+      "Detachable Palm Rest",
+      "Dedicated Macro Keys"
+    ],
+    "price": 199.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Others"
+  },
+  {
+    "title": "Sony WH-1000XM4",
+    "description": "Wireless Noise-Canceling Headphones",
+    "keyfeatures": [
+      "Industry-Leading Noise Cancellation",
+      "30 Hours Battery Life",
+      "LDAC"
+    ],
+    "price": 349.99,
+    "status": "In Stock",
+    "rating": 4.9,
+    "category": "Others"
+  },
+  {
+    "title": "Elgato Stream Deck XL",
+    "description": "Advanced Stream Control with 32 Customizable Keys",
+    "keyfeatures": [
+      "LCD Key Technology",
+      "One-Touch Media Control",
+      "Direct Integration"
+    ],
+    "price": 249.99,
+    "status": "In Stock",
+    "rating": 4.8,
+    "category": "Others"
+  }
+]

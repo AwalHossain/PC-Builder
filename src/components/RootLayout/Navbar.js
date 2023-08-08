@@ -1,3 +1,4 @@
+import Link from "next/link";
 import DropdownMenu from "./SharedMenu";
 
 const categories = [
@@ -46,7 +47,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-secondary">PC BUILD</a>
+        {/* <a className="btn btn-secondary">PC BUILD</a> */}
+        <Link href="/pc-build" className='btn btn-primary'>PC Build</Link>
       </div>
     </div>
   );
