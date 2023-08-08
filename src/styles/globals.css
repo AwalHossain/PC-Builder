@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section_main{
+    @apply py-20
+}
+
+.section_title {
+  @apply text-4xl text-center font-bold mb-10;
+}
