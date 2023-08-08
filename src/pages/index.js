@@ -1,6 +1,7 @@
 
 import Banner from '<test>/components/Banner';
 import Featured from '<test>/components/Featured';
+import FeaturedCategory from '<test>/components/FeaturedCategory';
 import RootLayout from '<test>/components/RootLayout/RootLayout';
 import Head from 'next/head';
 
@@ -14,6 +15,7 @@ export default function Home({ products }) {
         <title>Pc Builder - Home</title>
       </Head>
       <Banner />
+      <FeaturedCategory />  
       <Featured products={products} />
     </div>
   )
