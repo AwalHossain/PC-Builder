@@ -1,3 +1,5 @@
+
+import Banner from '<test>/components/Banner';
 import RootLayout from '<test>/components/RootLayout/RootLayout';
 import Head from 'next/head';
 
@@ -9,6 +11,7 @@ export default function Home({ products }) {
       <Head>
         <title>Pc Builder - Home</title>
       </Head>
+      <Banner />
     </div>
   )
 }

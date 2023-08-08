@@ -1,8 +1,8 @@
-import React from 'react'
 
-export default function Banner() {
+ const Banner = () => {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://images.pexels.com/photos/9794458/pexels-photo-9794458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)' }}>
+      <>
+        {/* <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://images.pexels.com/photos/9794458/pexels-photo-9794458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)' }}>
             <div className="hero-overlay bg-opacity-80"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
@@ -11,7 +11,45 @@ export default function Banner() {
                     <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>
-        </div>
+        </div> */}
+
+<section class="relative bg-[url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=820&q=80)] bg-cover bg-center bg-no-repeat h-screen">
+  <div class="absolute inset-0 bg-black opacity-40"></div>
+
+  <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+    <div class="max-w-xl text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold sm:text-5xl text-white">
+        Let us find your
+        <strong class="block font-extrabold text-rose-700">
+          Forever Home.
+        </strong>
+      </h1>
+
+      <p class="mt-4 max-w-lg sm:text-xl/relaxed text-white">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
+        tenetur fuga ducimus numquam ea!
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4 justify-center sm:justify-start">
+        <a
+          href="#"
+          class="block rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500"
+        >
+          Get Started
+        </a>
+
+        <a
+          href="#"
+          class="block rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500"
+        >
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </>
     )
 }
 
@@ -48,3 +86,6 @@ export default function Banner() {
   </div>
 </div> 
 */
+
+
+export default Banner;
