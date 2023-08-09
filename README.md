@@ -2,7 +2,7 @@
 It's a PC building application where user can build their pc choosing desired component.
 
 ## Deployed on Vercel
-Live Link: https://pc-buider.vercel.app/
+Live Link: https://pc-craftmaster.vercel.app/
 
 ## Features
 - Featured category
