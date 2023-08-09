@@ -1,15 +1,19 @@
 # PC Builder 🖥️
-It's a PC building application where user can build their pc choosing desired component.
+Welcome to the PC Builder application, where you can create your dream PC by selecting your desired components. Whether you're a hardcore gamer, a content creator, or simply looking to upgrade your computer, this app has you covered.
 
 ## Deployed on Vercel
-Live Link: https://pc-craftmaster.vercel.app/
+Live Link: https://pc-builder-chi-seven.vercel.app/
 
 ## Features
-- Featured category
-- Featured product
-- Product Details
-- PC Building page
-- Build auth system to protect routed
+- Featured Categories: Easily navigate through different categories of components, making your shopping experience more organized.
+
+- Featured Product: Discover the spotlighted product that's trending or on sale.
+
+- Product Details: Get in-depth information about each component, including specifications and compatibility.
+
+- PC Building Page: Use our intuitive PC building interface to select your preferred components and customize your build.
+
+- Authentication System: Secure your routes and user data with our built-in authentication system.
 
 ## Getting Started
 

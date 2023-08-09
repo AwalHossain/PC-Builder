@@ -1,5 +1,6 @@
 import CategoryItem from '<test>/components/CategoryItem';
 import RootLayout from '<test>/components/Layout/RootLayout';
+import { useSession } from 'next-auth/react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { toast } from 'react-hot-toast';
@@ -23,7 +24,10 @@ const categories = [
 export default function PCBuild() {
     const { selectedItems } = useSelector((state) => state.selectComponent);
     const router = useRouter();
-
+    const {data: session, status} = useSession()
+    if(status === 'unauthenticated'){
+        router.push('/login')
+      }
     let totalPrice = 0;
     if (selectedItems.length)
         totalPrice = selectedItems.reduce((prev, item) => prev + item.price, 0);

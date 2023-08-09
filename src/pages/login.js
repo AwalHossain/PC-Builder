@@ -4,11 +4,12 @@ import { FaGithub, FaGoogle } from 'react-icons/fa';
 
 export default function Login() {
     const onGoogleLogIn = () => {
-        signIn("google", { callbackUrl: process.env.NEXTAUTH_URL })
+        signIn("google", { callbackUrl: 'https://pc-builder-chi-seven.vercel.app/' })
     }
 
     const onGitHubLogIn = () => {
-        signIn("github", { callbackUrl: process.env.NEXTAUTH_URL })
+        console.log(process.env.NEXTAUTH_URL,'url checking');
+        signIn("github", { callbackUrl: 'https://pc-builder-chi-seven.vercel.app/' })
     }
 
     return (
