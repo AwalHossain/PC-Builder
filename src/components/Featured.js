@@ -6,7 +6,7 @@ const  Featured = ({ products }) =>{
         <div className='section_main'>
             <h1 className='section_title'>Featured Product</h1>
             <div className='flex flex-wrap justify-center gap-10'>
-                {products?.data.map(product => <ProductCard key={product._id} product={product} />)}
+                {products?.data.slice(0,6).map(product => <ProductCard key={product._id} product={product} />)}
             </div>
         </div>
     )

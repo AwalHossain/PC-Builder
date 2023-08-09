@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 // import { useAppSelector } from "../../redux/hook";
 // import toast from "react-hot-toast";
-import PreviousBtn from "../Reuseable/PreviousBtn";
+import PreviousBtn from "../PreviousBtn";
 import Review from "./Review";
 
 export default function Reviews({ id }) {

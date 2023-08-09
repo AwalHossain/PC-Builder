@@ -1,6 +1,6 @@
 import RootLayout from '<test>/components/Layout/RootLayout';
-import PreviousBtn from '<test>/components/Reuseable/PreviousBtn';
-import SelectProduct from '<test>/components/Reuseable/SelectProduct';
+import PreviousBtn from '<test>/components/PreviousBtn';
+import SelectProduct from '<test>/components/SelectProduct';
 import Head from 'next/head';
 
 export default function CategoryComponent({ products }) {

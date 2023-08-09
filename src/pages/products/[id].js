@@ -1,5 +1,5 @@
 import RootLayout from '<test>/components/Layout/RootLayout';
-import Reviews from '<test>/components/UI/Reviews';
+import Reviews from '<test>/components/Review/Reviews';
 import Head from 'next/head';
 
 export default function ProductDetails({ product }) {
