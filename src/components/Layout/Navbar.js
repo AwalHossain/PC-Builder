@@ -17,7 +17,6 @@ const Navbar = () => {
 
 
   const {data: session, status} = useSession()
-  console.log(status,'seesssion');
   return (
     <div className="navbar bg-gray-800 z-10 static">
       <div className="navbar-start">
@@ -27,29 +26,29 @@ const Navbar = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </label>
-          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-900 rounded-box w-52">
-            <li><a className="text-white hover:text-gray-400">Item 1</a></li>
+          <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-400 rounded-box w-52">
             <li>
-              <a className="text-white hover:text-gray-400">Categories</a>
+              <a className="text-white ">Categories</a>
               <DropdownMenu categories={categories} />
             </li>
-            <li><a className="text-white hover:text-gray-400">Item 3</a></li>
+           
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl text-white">daisyUI</a>
+        <Link href="/" className="btn btn-ghost normal-case text-xl text-white">
+        PCMasterCraft
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-          <li><a className="text-white hover:text-gray-400">Item 1</a></li>
+
           <li tabIndex={0} >
             <details>
-              <summary className="text-white hover:text-gray-400">Categories</summary>
-              <div className="absolute z-10 bg-white">
+              <summary className="text-white">Categories</summary>
+              <div className="absolute z-10 bg-gray-400">
                 <DropdownMenu categories={categories} />
               </div>
             </details>
           </li>
-          <li><a className="text-white hover:text-gray-400">Item 3</a></li>
         </ul>
       </div>
       <div className="navbar-end space-x-4">

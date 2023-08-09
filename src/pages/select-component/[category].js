@@ -27,7 +27,7 @@ CategoryComponent.getLayout = function getLayout(page) {
 
 export async function getServerSideProps(context) {
     const { params } = context
-    const res = await fetch(`https://pc-builder-server-opal.vercel.app/productsByCategory/${params?.category}`)
+    const res = await fetch(`https://pc-craftmaster-server.vercel.app/productsByCategory/${params?.category}`)
     const data = await res.json()
 
     return { props: { products: data.data } }

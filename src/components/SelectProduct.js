@@ -19,7 +19,7 @@ export default function SelectProduct({ product }) {
         <div className="bg-gray-100 shadow-xl rounded-md overflow-hidden w-full md:w-[400px]">
         <figure>
           <img
-            src="https://images.pexels.com/photos/792199/pexels-photo-792199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="Movie"
             className='h-60 md:h-[300px] w-full object-cover'
           />

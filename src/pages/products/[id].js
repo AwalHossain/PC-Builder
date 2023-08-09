@@ -13,7 +13,7 @@ export default function ProductDetails({ product }) {
     <div className='flex flex-col md:flex-row gap-8'>
       <div className='md:w-1/2'>
         <img
-          src="https://images.pexels.com/photos/1714341/pexels-photo-1714341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Shoes"
           className='w-full rounded-lg'
         />
@@ -74,7 +74,7 @@ ProductDetails.getLayout = function getLayout(page) {
 
 
 export const getStaticPaths = async () => {
-    const res = await fetch('https://pc-builder-server-opal.vercel.app/products')
+    const res = await fetch('https://pc-craftmaster-server.vercel.app/products')
     const products = await res.json()
 
     const paths = products.data.map((product) => ({
@@ -86,7 +86,7 @@ console.log(paths,'checking path');
 
 export const getStaticProps = async (context) => {
     const { params } = context
-    const res = await fetch(`https://pc-builder-server-opal.vercel.app/products/${params?.id}`)
+    const res = await fetch(`https://pc-craftmaster-server.vercel.app/products/${params?.id}`)
     const data = await res.json()
 
     return { props: { product: data.data } }

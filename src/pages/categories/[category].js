@@ -25,7 +25,7 @@ CategoryDetails.getLayout = function getLayout(page) {
 };
 
 export const getStaticPaths = async () => {
-    const res = await fetch('https://pc-builder-server-opal.vercel.app/products')
+    const res = await fetch('https://pc-craftmaster-server.vercel.app/products')
     const products = await res.json()
 
     const paths = products.data.map((product) => ({
@@ -37,7 +37,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const { params } = context
-    const res = await fetch(`https://pc-builder-server-opal.vercel.app/productsByCategory/${params?.category}`)
+    const res = await fetch(`https://pc-craftmaster-server.vercel.app/productsByCategory/${params?.category}`)
     const data = await res.json()
 
     return { props: { products: data.data } }
