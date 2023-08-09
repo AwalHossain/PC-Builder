@@ -4,11 +4,11 @@ import { FaGithub, FaGoogle } from 'react-icons/fa';
 
 export default function Login() {
     const onGoogleLogIn = () => {
-        // signIn("google", { callbackUrl: "http://localhost:3000/" })
+        signIn("google", { callbackUrl: "http://localhost:3000" })
     }
 
     const onGitHubLogIn = () => {
-        signIn("github", { callbackUrl: "http://localhost:3000/" })
+        signIn("github", { callbackUrl: "http://localhost:3000" })
     }
 
     return (

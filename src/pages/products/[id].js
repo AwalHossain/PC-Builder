@@ -1,8 +1,7 @@
-import RootLayout from '<test>/components/RootLayout/RootLayout';
+import RootLayout from '<test>/components/Layout/RootLayout';
 import Reviews from '<test>/components/UI/Reviews';
 import Head from 'next/head';
 import Image from 'next/image';
-import React from 'react'
 import { BsArrowReturnRight } from 'react-icons/bs';
 
 export default function ProductDetails({ product }) {
