@@ -5,15 +5,18 @@ Welcome to the PC Builder application, where you can create your dream PC by sel
 Live Link: https://pc-builder-chi-seven.vercel.app/
 
 ## Features
-- Featured Categories: Easily navigate through different categories of components, making your shopping experience more organized.
+- **Featured Categories:** Easily navigate through different categories of components, making your shopping experience more organized.
 
-- Featured Product: Discover the spotlighted product that's trending or on sale.
+- **Featured Product:** Discover the spotlighted product that's trending or on sale.
 
-- Product Details: Get in-depth information about each component, including specifications and compatibility.
+- **Product Details:** Users can view detailed information about each component.
 
-- PC Building Page: Use our intuitive PC building interface to select your preferred components and customize your build.
+- **PC Building Page:** Users can browse and select components for their PC build.
 
-- Authentication System: Secure your routes and user data with our built-in authentication system.
+- **Authentication System:** Secure your routes and user data with our built-in authentication system.
+  
+- **Total Cost:** Users can view the total cost of their build
+- **Bookmark:** Users can save their build for later viewing 
 
 ## Getting Started
 
